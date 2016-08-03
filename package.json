@@ -1,0 +1,16 @@
+{
+    "name": "shell-snippets",
+    "publisher": "cdsama",
+    "description": "Code snippets of shell scripts for visual studio code.",
+    "version": "0.1.0",
+    "engines": { "vscode": "0.10.x" },
+    "categories": ["Snippets"], 
+    "contributes": {
+        "snippets": [
+            {
+                "language": "shellscript",
+                "path": "./snippets/shellscript.json"
+            }
+        ]
+    }
+}
