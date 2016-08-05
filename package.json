@@ -16,6 +16,10 @@
             {
                 "language": "shellscript",
                 "path": "./snippets/shellscript.json"
+            },
+            {
+                "language": "shellscript",
+                "path": "./snippets/frequently-used.json"
             }
         ]
     },
