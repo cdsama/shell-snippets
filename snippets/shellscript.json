@@ -29,102 +29,102 @@
         "body": "else\n\t${0}",
         "description": "else"
     },
-    "string_empty" : {
+    "test_string_empty" : {
         "prefix": "test_string_empty",
         "body": "test -z $${0:VAR}",
         "description": "test string empty"
     },
-    "string_equal" : {
+    "test_string_equal" : {
         "prefix": "test_string_equal",
         "body": "test $${0:VAR1} = $${1:VAR2}",
         "description": "test string equal"
     },
-    "string_not_empty" : {
+    "test_string_not_empty" : {
         "prefix": "test_string_not_empty",
         "body": "test -n $${0:VAR}",
         "description": "test string not empty"
     },
-    "string_not_equal" : {
+    "test_string_not_equal" : {
         "prefix": "test_string_not_equal",
         "body": "test $${0:VAR1} != $${1:VAR2}",
         "description": "test string not equal"
     },
-    "int_equal" : {
+    "test_int_equal" : {
         "prefix": "test_int_equal",
         "body": "test $${0:VAR1} -eq $${1:VAR2}",
         "description": "test int equal"
     },
-    "int_great_equal" : {
+    "test_int_great_equal" : {
         "prefix": "test_int_great_equal",
         "body": "test $${0:VAR1} -ge $${1:VAR2}",
         "description": "test int great equal"
     },
-    "int_great_than" : {
+    "test_int_great_than" : {
         "prefix": "test_int_great_than",
         "body": "test $${0:VAR1} -gt $${1:VAR2}",
         "description": "test int great than"
     },
-    "int_less_equal" : {
+    "test_int_less_equal" : {
         "prefix": "test_int_less_equal",
         "body": "test $${0:VAR1} -le $${1:VAR2}",
         "description": "test int less equal"
     },
-    "int_less_than" : {
+    "test_int_less_than" : {
         "prefix": "test_int_less_than",
         "body": "test $${0:VAR1} -lt $${1:VAR2}",
         "description": "test int less than"
     },
-    "int_not_equal" : {
+    "test_int_not_equal" : {
         "prefix": "test_int_not_equal",
         "body": "test $${0:VAR1} -ne $${1:VAR2}",
         "description": "test int not equal"
     },
-    "exist" : {
+    "test_exist" : {
         "prefix": "test_exist",
         "body": "test -e $${0:VAR}",
         "description": "test exist"
     },
-    "exist_file" : {
+    "test_exist_file" : {
         "prefix": "test_exist_file",
         "body": "test -f $${0:VAR}",
         "description": "test exist file"
     },
-    "exist_directory" : {
+    "test_exist_directory" : {
         "prefix": "test_exist_directory",
         "body": "test -d $${0:VAR}",
         "description": "test exist directory"
     },
-    "exist_readable" : {
+    "test_exist_readable" : {
         "prefix": "test_exist_readable",
         "body": "test -r $${0:VAR}",
         "description": "test exist readable"
     },
-    "exist_writeable" : {
+    "test_exist_writeable" : {
         "prefix": "test_exist_writeable",
         "body": "test -w $${0:VAR}",
         "description": "test exist writeable"
     },
-    "exist_executable" : {
+    "test_exist_executable" : {
         "prefix": "test_exist_executable",
         "body": "test -x $${0:VAR}",
         "description": "test exist executable"
     },
-    "exist_link" : {
+    "test_exist_link" : {
         "prefix": "test_exist_link",
         "body": "test -h $${0:VAR}",
         "description": "test exist link"
     },
-    "file_equal" : {
+    "test_file_equal" : {
         "prefix": "test_file_equal",
         "body": "test $${0:VAR} -ef $${1:VAR}",
         "description": "test file equal"
     },
-    "file_new_than" : {
+    "test_file_new_than" : {
         "prefix": "test_file_new_than",
         "body": "test $${0:VAR} -nt $${1:VAR}",
         "description": "test file new than"
     },
-    "file_old_than" : {
+    "test_file_old_than" : {
         "prefix": "test_file_old_than",
         "body": "test $${0:VAR} -ot $${1:VAR}",
         "description": "test file old than"

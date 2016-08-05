@@ -27,6 +27,8 @@ Code snippets of shell scripts for visual studio code.
 * batch rename files
 * awk 
     - substr
+	- printf
+	- for loop
 
 ## Installation
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
