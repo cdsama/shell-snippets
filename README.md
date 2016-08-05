@@ -43,4 +43,4 @@ You can contact me in the following ways:
 
 ## Links
 - [Source Code](https://github.com/cdsama/shell-snippets)
-- [Market](https://marketplace.visualstudio.com/items?itemName=cdsama.shell-snippets)
+- [Market](https://marketplace.visualstudio.com/items/cdsama.shell-snippets)
