@@ -1,7 +1,7 @@
 {
     "name": "shell-snippets",
     "description": "Code snippets of shell scripts for visual studio code.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "cdsama",
     "icon": "images/logo.png",
     "license": "MIT",
